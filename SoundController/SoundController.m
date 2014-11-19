@@ -47,7 +47,6 @@
     NSURL *localURL = url;
     self.lastRecordedFile = localURL;
     
-    
     // some settings
     NSDictionary *settings = [NSDictionary dictionaryWithObjectsAndKeys:
                               [NSNumber numberWithFloat: 11025],                    AVSampleRateKey,
@@ -67,12 +66,8 @@
 
 - (void)playAudioFileAtURL:(NSURL *)url {
     
-    NSURL *localURL = url;
-    
-    self.player = [[AVAudioPlayer alloc]initWithContentsOfURL:localURL error:nil];
-    
+    self.player = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:nil];
     self.player.numberOfLoops = 1;
-    
     [self.player play];
 }
 
