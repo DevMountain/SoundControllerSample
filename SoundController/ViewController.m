@@ -30,11 +30,18 @@
 }
 
 - (IBAction)recordAudioButton:(id)sender {
-    [self.soundController recordAudioToTemporaryDirectory];
+    [self.soundController recordAudioToTemporaryDirectoryWithLength:5.0];
 }
 
 - (IBAction)playAudioButton:(id)sender {
     [self.soundController playLastRecordedFile];
+}
+
+- (IBAction)playEverythingIsAwesome:(id)sender {
+    
+    NSURL *urlForAwesome = [[NSBundle mainBundle] URLForResource:@"song" withExtension:@"mp3"];
+    
+    [self.soundController playAudioFileAtURL:urlForAwesome];
 }
 
 @end

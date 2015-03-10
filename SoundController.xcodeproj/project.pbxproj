@@ -15,6 +15,7 @@
 		685534A11A1C2A9C00620D1D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6855349F1A1C2A9C00620D1D /* LaunchScreen.xib */; };
 		685534AD1A1C2A9D00620D1D /* SoundControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 685534AC1A1C2A9D00620D1D /* SoundControllerTests.m */; };
 		685534B81A1C2B3F00620D1D /* SoundController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685534B71A1C2B3F00620D1D /* SoundController.m */; };
+		68FA21971AAF792F00D929E8 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68FA21961AAF792F00D929E8 /* song.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		685534AC1A1C2A9D00620D1D /* SoundControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundControllerTests.m; sourceTree = "<group>"; };
 		685534B61A1C2B3F00620D1D /* SoundController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundController.h; sourceTree = "<group>"; };
 		685534B71A1C2B3F00620D1D /* SoundController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundController.m; sourceTree = "<group>"; };
+		68FA21961AAF792F00D929E8 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,13 +86,14 @@
 		6855348F1A1C2A9C00620D1D /* SoundController */ = {
 			isa = PBXGroup;
 			children = (
+				6855349A1A1C2A9C00620D1D /* Main.storyboard */,
 				685534941A1C2A9C00620D1D /* AppDelegate.h */,
 				685534951A1C2A9C00620D1D /* AppDelegate.m */,
 				685534971A1C2A9C00620D1D /* ViewController.h */,
 				685534981A1C2A9C00620D1D /* ViewController.m */,
-				6855349A1A1C2A9C00620D1D /* Main.storyboard */,
 				685534B61A1C2B3F00620D1D /* SoundController.h */,
 				685534B71A1C2B3F00620D1D /* SoundController.m */,
+				68FA21961AAF792F00D929E8 /* song.mp3 */,
 				6855349D1A1C2A9C00620D1D /* Images.xcassets */,
 				6855349F1A1C2A9C00620D1D /* LaunchScreen.xib */,
 				685534901A1C2A9C00620D1D /* Supporting Files */,
@@ -204,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68FA21971AAF792F00D929E8 /* song.mp3 in Resources */,
 				6855349C1A1C2A9C00620D1D /* Main.storyboard in Resources */,
 				685534A11A1C2A9C00620D1D /* LaunchScreen.xib in Resources */,
 				6855349E1A1C2A9C00620D1D /* Images.xcassets in Resources */,
@@ -418,6 +422,7 @@
 				685534B21A1C2A9D00620D1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		685534B31A1C2A9D00620D1D /* Build configuration list for PBXNativeTarget "SoundControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +431,7 @@
 				685534B51A1C2A9D00620D1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

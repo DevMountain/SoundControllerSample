@@ -7,11 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface SoundController : NSObject
 
-- (void)recordAudioToTemporaryDirectory;
-- (void)recordAudioToURL:(NSURL *)url;
+- (void)recordAudioToTemporaryDirectoryWithLength:(CGFloat)length;
+- (void)recordAudioToURL:(NSURL *)url withLength:(CGFloat)length;
 
 - (void)playAudioFileAtURL:(NSURL *)url;
 - (void)playLastRecordedFile;

@@ -7,7 +7,6 @@
 //
 
 #import "SoundController.h"
-#import <AVFoundation/AVFoundation.h>
 
 @interface SoundController()
 
@@ -20,7 +19,9 @@
 
 @implementation SoundController
 
-- (void)recordAudioToTemporaryDirectory{
+- (void)recordAudioToTemporaryDirectoryWithLength:(CGFloat)length {
+    
+    // set up the temporary directory to save the audio file
     NSString *fileName = [NSString stringWithFormat:@"%@_%@", [[NSProcessInfo processInfo] globallyUniqueString], @"file.m4a"];
     NSURL *localURL = [NSURL fileURLWithPath:[NSTemporaryDirectory() stringByAppendingPathComponent:fileName]];
     
@@ -37,13 +38,14 @@
     self.recorder = [[AVAudioRecorder alloc] initWithURL:localURL settings:settings error:&error];
     
     // record for 5 seconds
-    [self.recorder recordForDuration:5];
+    [self.recorder recordForDuration:length];
     
     self.lastRecordedFile = localURL;
 }
 
-- (void)recordAudioToURL:(NSURL *)url {
+- (void)recordAudioToURL:(NSURL *)url withLength:(CGFloat)length {
     
+    // set up specific url so we can play it back later
     NSURL *localURL = url;
     self.lastRecordedFile = localURL;
     
@@ -55,12 +57,12 @@
                               [NSNumber numberWithInt: AVAudioQualityMin],          AVEncoderAudioQualityKey,
                               nil];
     
-    // create a AVAudioRecorder
+    // create an AVAudioRecorder
     NSError *error;
     self.recorder = [[AVAudioRecorder alloc] initWithURL:localURL settings:settings error:&error];
     
     // record for 5 seconds
-    [self.recorder recordForDuration:5];
+    [self.recorder recordForDuration:length];
     
 }
 

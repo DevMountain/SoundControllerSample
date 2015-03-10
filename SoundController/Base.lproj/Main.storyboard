@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A388a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -26,7 +26,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MSt-fy-VeA">
-                                <rect key="frame" x="248" y="340" width="104" height="30"/>
+                                <rect key="frame" x="248" y="217" width="104" height="30"/>
                                 <state key="normal" title="Play Recording">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -34,13 +34,25 @@
                                     <action selector="playAudioButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="IAT-NL-D3K"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YxS-Eu-bJL">
+                                <rect key="frame" x="216" y="317" width="168" height="30"/>
+                                <state key="normal" title="Is Everything Awesome?">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playAudioButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3OK-IV-eQe"/>
+                                    <action selector="playEverythingIsAwesome:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="byx-Lf-03U"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="MSt-fy-VeA" secondAttribute="bottom" constant="230" id="Sic-kD-nf0"/>
-                            <constraint firstItem="bpL-rX-zuV" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="93" id="YPX-Id-FQ3"/>
-                            <constraint firstItem="MSt-fy-VeA" firstAttribute="centerX" secondItem="bpL-rX-zuV" secondAttribute="centerX" id="j8p-ge-Etg"/>
-                            <constraint firstItem="bpL-rX-zuV" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="kzJ-G9-OU3"/>
+                            <constraint firstItem="YxS-Eu-bJL" firstAttribute="top" secondItem="MSt-fy-VeA" secondAttribute="bottom" constant="70" id="5y2-76-paK"/>
+                            <constraint firstItem="YxS-Eu-bJL" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Bm4-QX-M90"/>
+                            <constraint firstItem="MSt-fy-VeA" firstAttribute="centerX" secondItem="bpL-rX-zuV" secondAttribute="centerX" id="icV-8h-SOW"/>
+                            <constraint firstItem="MSt-fy-VeA" firstAttribute="top" secondItem="bpL-rX-zuV" secondAttribute="bottom" constant="74" id="jzk-1z-J4n"/>
+                            <constraint firstItem="bpL-rX-zuV" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="93" id="nPd-xh-sZV"/>
+                            <constraint firstItem="YxS-Eu-bJL" firstAttribute="centerX" secondItem="MSt-fy-VeA" secondAttribute="centerX" id="wRJ-X5-m2e"/>
                         </constraints>
                     </view>
                 </viewController>
