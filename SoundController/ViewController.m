@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "SoundController.h"
+#import "SoundEffectPlayer.h"
 
 @interface ViewController ()
 
@@ -42,6 +43,14 @@
     NSURL *urlForAwesome = [[NSBundle mainBundle] URLForResource:@"song" withExtension:@"mp3"];
     
     [self.soundController playAudioFileAtURL:urlForAwesome];
+}
+
+- (IBAction)playSound:(id)sender {
+    [SoundEffectPlayer playSoundWithName:soundForMiscSound];
+}
+
+- (IBAction)playAlert:(id)sender {
+    [SoundEffectPlayer playAlertWithName:soundForMiscSound];
 }
 
 @end
