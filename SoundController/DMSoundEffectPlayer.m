@@ -6,10 +6,10 @@
 //  Copyright (c) 2015 BSN Design. All rights reserved.
 //
 
-#import "SoundEffectPlayer.h"
+#import "DMSoundEffectPlayer.h"
 #import <AudioToolbox/AudioToolbox.h>
 
-@implementation SoundEffectPlayer
+@implementation DMSoundEffectPlayer
 
 + (void)playSoundWithName:(NSString *)soundName {
     [self playSoundWithFile:soundName type:nil alert:NO];

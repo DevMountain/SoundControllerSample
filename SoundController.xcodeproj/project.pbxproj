@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		685534931A1C2A9C00620D1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 685534921A1C2A9C00620D1D /* main.m */; };
-		685534961A1C2A9C00620D1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 685534951A1C2A9C00620D1D /* AppDelegate.m */; };
-		685534991A1C2A9C00620D1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685534981A1C2A9C00620D1D /* ViewController.m */; };
+		685534961A1C2A9C00620D1D /* DMSoundControllerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 685534951A1C2A9C00620D1D /* DMSoundControllerAppDelegate.m */; };
+		685534991A1C2A9C00620D1D /* DMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685534981A1C2A9C00620D1D /* DMMainViewController.m */; };
 		6855349C1A1C2A9C00620D1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6855349A1A1C2A9C00620D1D /* Main.storyboard */; };
 		6855349E1A1C2A9C00620D1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6855349D1A1C2A9C00620D1D /* Images.xcassets */; };
 		685534A11A1C2A9C00620D1D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6855349F1A1C2A9C00620D1D /* LaunchScreen.xib */; };
 		685534AD1A1C2A9D00620D1D /* SoundControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 685534AC1A1C2A9D00620D1D /* SoundControllerTests.m */; };
-		685534B81A1C2B3F00620D1D /* SoundController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685534B71A1C2B3F00620D1D /* SoundController.m */; };
+		685534B81A1C2B3F00620D1D /* DMSoundController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685534B71A1C2B3F00620D1D /* DMSoundController.m */; };
 		68FA21971AAF792F00D929E8 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68FA21961AAF792F00D929E8 /* song.mp3 */; };
-		E77689BA1AAFAC90005159BD /* SoundEffectPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E77689B91AAFAC90005159BD /* SoundEffectPlayer.m */; };
+		E77689BA1AAFAC90005159BD /* DMSoundEffectPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E77689B91AAFAC90005159BD /* DMSoundEffectPlayer.m */; };
 		E77689BD1AAFADA8005159BD /* Misc.caf in Resources */ = {isa = PBXBuildFile; fileRef = E77689BB1AAFADA8005159BD /* Misc.caf */; };
 		E77689BE1AAFADA8005159BD /* Misc.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E77689BC1AAFADA8005159BD /* Misc.mp3 */; };
 /* End PBXBuildFile section */
@@ -35,21 +35,21 @@
 		6855348D1A1C2A9C00620D1D /* SoundController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		685534911A1C2A9C00620D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		685534921A1C2A9C00620D1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		685534941A1C2A9C00620D1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		685534951A1C2A9C00620D1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		685534971A1C2A9C00620D1D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		685534981A1C2A9C00620D1D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		685534941A1C2A9C00620D1D /* DMSoundControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMSoundControllerAppDelegate.h; sourceTree = "<group>"; };
+		685534951A1C2A9C00620D1D /* DMSoundControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMSoundControllerAppDelegate.m; sourceTree = "<group>"; };
+		685534971A1C2A9C00620D1D /* DMMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMMainViewController.h; sourceTree = "<group>"; };
+		685534981A1C2A9C00620D1D /* DMMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMMainViewController.m; sourceTree = "<group>"; };
 		6855349B1A1C2A9C00620D1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6855349D1A1C2A9C00620D1D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		685534A01A1C2A9C00620D1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		685534A61A1C2A9C00620D1D /* SoundControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		685534AB1A1C2A9D00620D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		685534AC1A1C2A9D00620D1D /* SoundControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundControllerTests.m; sourceTree = "<group>"; };
-		685534B61A1C2B3F00620D1D /* SoundController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundController.h; sourceTree = "<group>"; };
-		685534B71A1C2B3F00620D1D /* SoundController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundController.m; sourceTree = "<group>"; };
+		685534B61A1C2B3F00620D1D /* DMSoundController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMSoundController.h; sourceTree = "<group>"; };
+		685534B71A1C2B3F00620D1D /* DMSoundController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMSoundController.m; sourceTree = "<group>"; };
 		68FA21961AAF792F00D929E8 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
-		E77689B81AAFAC90005159BD /* SoundEffectPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEffectPlayer.h; sourceTree = "<group>"; };
-		E77689B91AAFAC90005159BD /* SoundEffectPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEffectPlayer.m; sourceTree = "<group>"; };
+		E77689B81AAFAC90005159BD /* DMSoundEffectPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMSoundEffectPlayer.h; sourceTree = "<group>"; };
+		E77689B91AAFAC90005159BD /* DMSoundEffectPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMSoundEffectPlayer.m; sourceTree = "<group>"; };
 		E77689BB1AAFADA8005159BD /* Misc.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Misc.caf; sourceTree = "<group>"; };
 		E77689BC1AAFADA8005159BD /* Misc.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Misc.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,20 +93,15 @@
 		6855348F1A1C2A9C00620D1D /* SoundController */ = {
 			isa = PBXGroup;
 			children = (
-				6855349A1A1C2A9C00620D1D /* Main.storyboard */,
-				685534941A1C2A9C00620D1D /* AppDelegate.h */,
-				685534951A1C2A9C00620D1D /* AppDelegate.m */,
-				685534971A1C2A9C00620D1D /* ViewController.h */,
-				685534981A1C2A9C00620D1D /* ViewController.m */,
-				685534B61A1C2B3F00620D1D /* SoundController.h */,
-				685534B71A1C2B3F00620D1D /* SoundController.m */,
-				E77689B81AAFAC90005159BD /* SoundEffectPlayer.h */,
-				E77689B91AAFAC90005159BD /* SoundEffectPlayer.m */,
-				68FA21961AAF792F00D929E8 /* song.mp3 */,
-				E77689BB1AAFADA8005159BD /* Misc.caf */,
-				E77689BC1AAFADA8005159BD /* Misc.mp3 */,
-				6855349D1A1C2A9C00620D1D /* Images.xcassets */,
-				6855349F1A1C2A9C00620D1D /* LaunchScreen.xib */,
+				685534941A1C2A9C00620D1D /* DMSoundControllerAppDelegate.h */,
+				685534951A1C2A9C00620D1D /* DMSoundControllerAppDelegate.m */,
+				685534971A1C2A9C00620D1D /* DMMainViewController.h */,
+				685534981A1C2A9C00620D1D /* DMMainViewController.m */,
+				685534B61A1C2B3F00620D1D /* DMSoundController.h */,
+				685534B71A1C2B3F00620D1D /* DMSoundController.m */,
+				E77689B81AAFAC90005159BD /* DMSoundEffectPlayer.h */,
+				E77689B91AAFAC90005159BD /* DMSoundEffectPlayer.m */,
+				9DC1C9271ADC13A3009E1674 /* Resources */,
 				685534901A1C2A9C00620D1D /* Supporting Files */,
 			);
 			path = SoundController;
@@ -136,6 +131,19 @@
 				685534AB1A1C2A9D00620D1D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DC1C9271ADC13A3009E1674 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6855349D1A1C2A9C00620D1D /* Images.xcassets */,
+				6855349F1A1C2A9C00620D1D /* LaunchScreen.xib */,
+				6855349A1A1C2A9C00620D1D /* Main.storyboard */,
+				68FA21961AAF792F00D929E8 /* song.mp3 */,
+				E77689BB1AAFADA8005159BD /* Misc.caf */,
+				E77689BC1AAFADA8005159BD /* Misc.mp3 */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,11 +249,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				685534991A1C2A9C00620D1D /* ViewController.m in Sources */,
-				685534B81A1C2B3F00620D1D /* SoundController.m in Sources */,
-				685534961A1C2A9C00620D1D /* AppDelegate.m in Sources */,
+				685534991A1C2A9C00620D1D /* DMMainViewController.m in Sources */,
+				685534B81A1C2B3F00620D1D /* DMSoundController.m in Sources */,
+				685534961A1C2A9C00620D1D /* DMSoundControllerAppDelegate.m in Sources */,
 				685534931A1C2A9C00620D1D /* main.m in Sources */,
-				E77689BA1AAFAC90005159BD /* SoundEffectPlayer.m in Sources */,
+				E77689BA1AAFAC90005159BD /* DMSoundEffectPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

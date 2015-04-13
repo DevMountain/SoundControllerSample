@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 DevMountain. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "DMSoundControllerAppDelegate.h"
 
-@interface AppDelegate ()
+@interface DMSoundControllerAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation DMSoundControllerAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

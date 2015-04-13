@@ -10,7 +10,7 @@
 
 static NSString *const soundForMiscSound = @"Misc";
 
-@interface SoundEffectPlayer : NSObject
+@interface DMSoundEffectPlayer : NSObject
 
 + (void)playSoundWithName:(NSString *)soundName;
 + (void)playAlertWithName:(NSString *)alertName;

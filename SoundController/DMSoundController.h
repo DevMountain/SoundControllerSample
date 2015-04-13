@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
 
-@interface SoundController : NSObject
+@interface DMSoundController : NSObject
 
 - (void)recordAudioToTemporaryDirectoryWithLength:(CGFloat)length;
 - (void)recordAudioToURL:(NSURL *)url withLength:(CGFloat)length;

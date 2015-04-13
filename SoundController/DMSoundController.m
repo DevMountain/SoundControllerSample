@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 DevMountain. All rights reserved.
 //
 
-#import "SoundController.h"
+#import "DMSoundController.h"
 
-@interface SoundController()
+@interface DMSoundController()
 
 @property (strong, nonatomic) AVAudioPlayer *player;
 @property (strong, nonatomic) AVAudioRecorder *recorder;
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation SoundController
+@implementation DMSoundController
 
 - (void)recordAudioToTemporaryDirectoryWithLength:(CGFloat)length {
     

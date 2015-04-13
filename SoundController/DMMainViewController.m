@@ -6,23 +6,23 @@
 //  Copyright (c) 2014 DevMountain. All rights reserved.
 //
 
-#import "ViewController.h"
-#import "SoundController.h"
-#import "SoundEffectPlayer.h"
+#import "DMMainViewController.h"
+#import "DMSoundController.h"
+#import "DMSoundEffectPlayer.h"
 
-@interface ViewController ()
+@interface DMMainViewController ()
 
-@property (nonatomic, strong) SoundController *soundController;
+@property (nonatomic, strong) DMSoundController *soundController;
 
 @end
 
-@implementation ViewController
+@implementation DMMainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.soundController = [SoundController new];
+    self.soundController = [DMSoundController new];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -46,11 +46,11 @@
 }
 
 - (IBAction)playSound:(id)sender {
-    [SoundEffectPlayer playSoundWithName:soundForMiscSound];
+    [DMSoundEffectPlayer playSoundWithName:soundForMiscSound];
 }
 
 - (IBAction)playAlert:(id)sender {
-    [SoundEffectPlayer playAlertWithName:soundForMiscSound];
+    [DMSoundEffectPlayer playAlertWithName:soundForMiscSound];
 }
 
 @end
